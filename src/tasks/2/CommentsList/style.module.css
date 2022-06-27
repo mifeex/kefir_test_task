@@ -1,0 +1,42 @@
+body {
+	margin: auto;
+}
+.commentContext {
+	padding: 15px 0;
+}
+.header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+.authorInfo {
+	width: 200px;
+	text-align: center;
+}
+.avatar img {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+.commentInfo {
+	width: 30%;
+	text-align: left;
+}
+.comment {
+    text-align: left;
+	transform: translate(45%, 0);
+    width: 450px;
+}
+.name {
+	color: #000;
+	font-size: 20px
+}
+.created {
+	color: gray;
+}
+.replyContext {
+	padding: 15px 0px 15px 20px;
+}
+.likes {
+	width: 150px;
+}
